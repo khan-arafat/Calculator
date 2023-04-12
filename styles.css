@@ -1,0 +1,58 @@
+/* css code goes here */
+.container {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    background-color: #000000;
+    height: 350px;
+    border: 0.5px black solid;
+    border-radius: 1rem;
+}
+.inner-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+}
+.display-area  {
+    width: 100%;
+    justify-content: center;
+}
+#input{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5vh;
+    width: 280px;
+    outline: 0.5px black solid;
+    font-size: 200%;
+    text-align: right;
+}
+.inner-btn {
+    width:280px;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 10px;
+}
+.fnbtn {
+    display: flex;
+    gap: 10px;
+}
+#del {
+    width: fit-content;
+    background-color: crimson;
+    margin-top: 10px;
+    color: white;
+}
+#clr {
+    font-size: 200%;
+    width: 60px;
+    margin-left: 1.5rem;
+    margin-top: 10px;
+    background-color: skyblue;
+}
+button {
+    font-size: 30px;
+    width: 40px;
+}
